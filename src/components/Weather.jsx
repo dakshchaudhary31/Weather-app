@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css'; // ✅ FIX: Import toast styles
+import 'react-toastify/dist/ReactToastify.css'; 
 
 import './Weather.css';
 
@@ -94,7 +94,7 @@ const Weather = () => {
 
   return (
     <>
-      <ToastContainer // ✅ Will now work correctly at bottom-right
+      <ToastContainer 
         position="top-right"
         autoClose={3000}
         hideProgressBar={false}
